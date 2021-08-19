@@ -1,0 +1,22 @@
+{
+  "name": "codeartifact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npm run codeartifact:login",
+    "codeartifact:login": "aws codeartifact login --tool npm --repository tvg-repository --domain tvg --domain-owner 1234567890",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbidston/codeartifact.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbidston/codeartifact/issues"
+  },
+  "homepage": "https://github.com/jbidston/codeartifact#readme"
+}
