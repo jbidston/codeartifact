@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "preinstall": "npm run codeartifact:login",
-    "codeartifact:login": "aws codeartifact login --tool npm --repository tvg-repository --domain tvg --domain-owner 1234567890",
+    "codeartifact:login": "sh codeartifact.sh",
     "build": "echo building",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
